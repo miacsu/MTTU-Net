@@ -11,7 +11,7 @@ modalities = ('flair', 't1ce', 't1', 't2')
 
 # train
 train_set = {
-        'root': '/public/home/hpc184601044/dataset/BraTS/BraTS2021/RSNA_ASNR_MICCAI_BraTS2021_TrainingData/',
+        'root': 'BraTS/BraTS2021/RSNA_ASNR_MICCAI_BraTS2021_TrainingData/',
         'flist': 'data_all_1.txt',
         'grade_file':'data/IDH_train_ormiss_data.csv',
         'has_label': True,
@@ -19,7 +19,7 @@ train_set = {
 
 # test/validation data
 valid_set = {
-        'root': '/public/home/hpc184601044/dataset/BraTS/BraTS2021/RSNA_ASNR_MICCAI_BraTS2021_ValidationData/',#/homeb/jhcheng/userfolder/dataset/BraTS/BraTS_IDH/MICCAI_BraTS2020_ValidationData',
+        'root': 'BraTS/BraTS2021/RSNA_ASNR_MICCAI_BraTS2021_ValidationData/',
         'flist': 'valid_data.txt',
         'grade_file': '',#'data/IDH_test_ormiss_data.csv',
         'has_label': False
