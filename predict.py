@@ -173,7 +173,7 @@ def validate_softmax(
         postprocess=False,  # Default False, when use postprocess, the score of dice_ET would be changed.
         valid_in_train=False,  # if you are valid when train
         ):
-    t1ce_Path = '/public/home/hpc184601044/dataset/BraTS_2020/MICCAI_BraTS2020_ValidationData/BraTS20_Validation_001/BraTS20_Validation_001_t1ce.nii.gz'
+    t1ce_Path = 'dataset/BraTS_2020/MICCAI_BraTS2020_ValidationData/BraTS20_Validation_001/BraTS20_Validation_001_t1ce.nii.gz'
     t1ce_image = nib.load(t1ce_Path)
     H, W, T = 240, 240, 155
     if isinstance(model,dict):
