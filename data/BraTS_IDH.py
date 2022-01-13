@@ -271,7 +271,7 @@ class BraTS(Dataset):
         self.names = names
         self.paths = paths
         self.idhs = idhs
-        self.add_data = pd.read_csv(os.path.join('/public/home/hpc184601044/workspace/TransBraTS-main/data/',csv_file))
+        self.add_data = pd.read_csv(os.path.join('/TransBraTS-main/data/',csv_file))
         self.add_ids = self.add_data.id.values.ravel()
 
     def __getitem__(self, item):
