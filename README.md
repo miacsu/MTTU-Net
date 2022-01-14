@@ -1,5 +1,14 @@
 ## MTTU-Net
 Code for "A Fully Automated Multimodal MRI-based Multi-task Learning for Glioma Segmentation and IDH Genotyping"
+
+## Cite bibtex format
+@ARTICLE{cheng2022idh,<br>
+  author={Cheng, Jianhong and Liu, Jin and Kuang, Hulin and Wang, Jianxin},<br>
+  journal={IEEE Transactions on Medical Imaging},<br>
+  title={A Fully Automated Multimodal MRI-based Multi-task Learning for Glioma Segmentation and IDH Genotyping},<br>
+  year={2022},<br>
+  doi={10.1109/TMI.2022.3142321}}
+
 ## Prerequisites
 Python 3.7+
 
@@ -15,3 +24,4 @@ python -m torch.distributed.launch --nproc_per_node=2 --master_port 22 train_IDH
 
 ## Inference
 python test.py
+
