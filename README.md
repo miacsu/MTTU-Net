@@ -1,5 +1,5 @@
 ## MTTU-Net
-Code for "A Fully Automated Multimodal MRI-based Multi-task Learning for Glioma Segmentation and IDH Genotyping"
+Code for "[A Fully Automated Multimodal MRI-based Multi-task Learning for Glioma Segmentation and IDH Genotyping](https://ieeexplore.ieee.org/document/9678965)"
 
 ## Cite bibtex format
 @ARTICLE{cheng2022idh,<br>
